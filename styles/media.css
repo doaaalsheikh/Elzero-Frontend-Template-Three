@@ -1,0 +1,90 @@
+/* ---------Start Media Queries---------- */
+/* Very Small */
+/* @media (min-width: 320px) {
+	.container {
+		width: 300px;
+	}
+} */
+/* Small */
+@media (min-width: 768px) {
+	.container {
+		width: 750px;
+	}
+}
+/* Medium */
+@media (min-width: 992px) {
+	.container {
+		width: 970px;
+	}
+}
+/* Large */
+@media (min-width: 1200px) {
+	.container {
+		width: 1170px;
+	}
+}
+
+@media (max-width: 767px) {
+	.header .container {
+		flex-direction: column;
+	}
+	.header .mega-menu ul {
+		flex-wrap: nowrap;
+		height: 100%;
+		min-width: 100%;
+	}
+	.header .mega-menu ul li:nth-of-type(5) {
+		border: 1px solid;
+		border-color: transparent transparent var(--main-grey-color) transparent;
+	}
+	.landing .text {
+		flex-basis: 100%;
+		text-align: center;
+	}
+	.landing img {
+		display: none;
+	}
+	.steps .steps-content,
+	.steps .steps-content .steps-cards .card {
+		flex-direction: column;
+		text-align: center;
+	}
+	.events .container {
+		padding: 0;
+	}
+	.events img {
+		display: none;
+	}
+	.events .events-info {
+		text-align: center;
+	}
+	.events form {
+		flex-direction: column;
+		border-radius: 0;
+		width: 90%;
+		padding: 20px;
+		margin: 20px;
+	}
+	.events form input {
+		width: 100%;
+		border-radius: 0;
+	}
+
+	.discount .info,
+	.discount .form {
+		flex-basis: 100%;
+	}
+}
+@media (max-width: 991px) {
+	.mega-menu img {
+		display: none;
+	}
+	.pricing .pricing-content .plan.popular {
+		top: 0;
+	}
+
+	.videos .videos-content {
+		flex-direction: column;
+	}
+}
+/* ---------End Media Queries---------- */

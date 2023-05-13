@@ -1,0 +1,21 @@
+.d-flex {
+	display: flex;
+}
+
+.d-grid {
+	display: grid;
+}
+
+.g-minmax-280 {
+	display: grid;
+	grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+	gap: 30px;
+}
+
+.p-rel {
+	position: relative;
+}
+
+.b-shadow {
+	box-shadow: 0 0 10px #d5d5d5;
+}
